@@ -91,3 +91,11 @@ a:hover{
     color: orangered;
     
 }
+
+.paragraph{
+    text-align: center;
+}
+
+h1::first-line{
+    color: orangered;
+}
