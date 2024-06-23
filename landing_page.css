@@ -3,8 +3,8 @@ html{
 }
 main{
     width: 98%;
-    height: 75vh;
-    border: .1rem solid black;
+    min-height: 75vh;
+    border: .1rem solid white;
 }
 #about{
     width: 46%;
@@ -56,6 +56,37 @@ h1{
     animation-duration: 4s;
     animation-iteration-count: infinite;
     position: relative;
+}
+
+@media only screen and (max-width:768px) {
+    #about{
+        width: 96%;
+        margin: .5rem;
+    }
+    #sign-up{
+        width: 93%;
+        margin: .5rem;
+        
+    }
+    footer{
+        margin-top: .5rem;
+        margin-left: 0;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    #about{
+        width: 95%;
+        margin: .5rem;
+    }
+    #sign-up{
+        width: 90%;
+        margin: .5rem;
+    }
+    footer{
+        margin-top: .5rem;
+        margin-left: 0;
+    }
 }
 
 @keyframes landing-page{

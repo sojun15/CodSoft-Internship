@@ -4,22 +4,22 @@
     color: white;
     /* font-size:20px; */
 }
-h3, h1{
-    color: rgb(4, 250, 13);
-    font-size: 60px;
+h1, h2{
+    color: #2BFF00;
+    font-size: 50px;
     font-family: sans-serif;
     text-align: center;
     text-shadow: .1rem .1rem gainsboro;
 }
 a{
-    color: rgba(116, 9, 237, 0.925);
+    color: #DF11A8;
     font-size: 40px;
     text-align: center;
     text-decoration: none;
     
 }
 a li{
-    color: rgba(116, 9, 237, 0.925);
+    color: #DF11A8;
     font-size: 40px;
     text-decoration: none;
     margin-left: auto;
@@ -33,18 +33,18 @@ a li{
     
 }
 .about{
-    font-size: 40px;
-    color:aquamarine;
+    font-size: 30px;
+    color:white;
     font-weight: normal;
 }
 li{
-    font-size: 40px;
+    font-size: 30px;
     text-indent: 10%;
     
 }
 .address{
-    font-size: 50px;
-    color: gold;
+    font-size: 40px;
+    color: white;
     text-align: center;
     text-decoration: double;
 }
@@ -71,8 +71,6 @@ img {
 }
 .container{
     display:inline-block;
-    /* margin-left: auto;
-    margin-right: auto; */
     
 }
 div div nav p{
@@ -88,7 +86,7 @@ div div nav p{
     margin-bottom: 20px;
 }
 a:hover{
-    color: orangered;
+    color: white;
     
 }
 
@@ -96,6 +94,6 @@ a:hover{
     text-align: center;
 }
 
-h1::first-line{
-    color: orangered;
-}
+/* h1::first-line{
+    color: white;
+} */

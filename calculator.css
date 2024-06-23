@@ -1,0 +1,57 @@
+body{
+    background-color: gray;
+}
+
+.initial-state{
+    width: 45vh;
+    height: 50vh;
+    background-color:  #034efc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30vh auto;
+    border-radius: 10%;
+}
+
+.click-button input{
+    width: 40px;
+    height: 30px;
+    margin: 10px;
+    font-size: large;
+    border-radius: 30%;
+}
+
+.input-output input{
+    width: 90%;
+    text-align: right;
+    height: 30px;
+    margin: 10px;
+    font-size: large;
+}
+
+.click-button .equal-button{
+    width: 6.5rem;
+    border-radius: 20%;
+}
+
+form .on-off{
+    font-size: 10px;
+    padding: 0%;
+}
+
+@media only screen and (max-width:998px){
+    .initial-state{
+    margin: 20vh auto;
+    }
+}
+@media only screen and (max-width:768px){
+    .initial-state{
+    margin: 20vh auto;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .initial-state{
+    margin: 20vh auto;
+    }
+}

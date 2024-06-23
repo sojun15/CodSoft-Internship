@@ -5,44 +5,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Protfolio</title>
     <link rel="icon" href="port.png" type="image/icon type">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Portfolio.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Lora:ital,wght@0,400..700;1,400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <section>
+    <main>
+        <section id="home">
             <nav class="info">
-            <a href="#">Home</a>
+            <a href="#home">Home</a>
             <!-- here target means open a new page for about -->
-            <a href="#"> About</a>
-            <a href="#">Education</a>
-            <a href="#">Contact-Information</a>
+            <a href="#about"> About</a>
+            <a href="#skills"> Skills</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact-Me</a>
             </nav>
             <nav>
                 <h1>Sojun Chandra</h1>
                 <!-- here into 'alt' if write anything when the image not found then this text show -->
                 <img src="https://i.postimg.cc/J02Hy0Dn/scs.jpg" width="200px" height="200px" alt="Image">
             </nav>
+        </section>
+
+        <section id="about">
             <nav class="info">
-                <h3>About:</h3>
+                <h2>About:</h2>
                 <p class="about">I am an undergraduate student of Computer Science and Engineering Discipline at Khulna University. I am continuously learning programming knowledge.I like both software engineering and web development.</p>
-                <h3>Address:</h3>
+                <h2>Address:</h2>
                 <p class="address">Present address:</p>
                 <a href="https://maps.app.goo.gl/oU4CL29VPz4679FCA" target="_blank">Khan Bahadur Ahsanullah Hall,Khulna University</a>
                 <p class="address">Parmanent address:</p>
                 <a href="https://maps.app.goo.gl/aErfT7v2vYLjRotW8" target="_blank">Kasba,Brahmanbaria</a>
             </nav>
+        </section>
+
+        <section id="skills">
             <nav class="info">
-                <h3>Projects:</h3>
+                <h2>Projects:</h2>
                 <a href="https://github.com/sojun15/Snakegame">SnakeGame</a><br>
                 <a href="https://github.com/sojun15/Simple-calculator">Simple Calculator</a><br>                    
                 <a href="https://github.com/sojun15/Daily-activity/blob/main/AgeCalculation.java">Age Calculator</a><br>    
                 <a href="https://github.com/sojun15/Micro_Processor_Project-">Awareness of Orchid Cultivation</a>            
             </nav>
             <nav >
-                <h3>Skill Language:</h3>
+                <h2>Skill Language:</h2>
                 <table border="2" class="center">
                     <thead>
                         <th>Language</th>
@@ -51,47 +59,54 @@
                     <tbody>
                         <tr>
                             <td>C</td>
-                            <td>★★★★☆</td>
+                            <td><progress id="C" value="80" max="100"></progress></td>
                         </tr>
                         <tr>
                             <td>C++</td>
-                            <td>★★★★☆</td>
+                            <td><progress id="C++" value="75" max="100"></progress></td>
                         </tr>
                         <tr>
                             <td>Java</td>
-                            <td>★★★☆☆</td>
+                            <td><progress id="Java" value="75" max="100"></progress></td>
                         </tr>
                         <tr>
                             <td>HTML</td>
-                            <td>★★★☆☆</td>
+                            <td><progress id="Html" value="80" max="100"></progress></td>
                         </tr>
                         <tr>
                             <td>CSS</td>
-                            <td>★★☆☆☆</td>
+                            <td><progress id="css" value="70" max="100"></progress></td>
                         </tr>
                     </tbody>
                 </table>
             </nav>
+        </section>
+
+        <section id="education">
             <nav class="details">
-                <h3>Education:</h3>
+                <h2>Education:</h2>
                 <p class="paragraph">Khulna University,Khulna</p>
                 <p class="paragraph">Navy College,Dhaka</p>
             </nav>
             <nav class="details">
-                <h3>Running Course:</h3>
+                <h2>Running Course:</h2>
                 <p class="paragraph">Software Quality and Assurance</p>
                 <p class="paragraph">Full Stack Web-Devolopment</p>
             </nav>
+        </section>
+
+        <section id="contact">
             <nav class="details">
-                <h3>Contact Information:</h3>
+                <h2>Contact Information:</h2>
                 <p class="paragraph">Gmail : sojunkomer123@gmail.com</p>
                 <p class="paragraph">Phone : 01794046782</p>
             </nav>
             <nav id="social">
-                <h3>Social Media:</h3>
+                <h2>Social Media:</h2>
                 <a href="https://www.facebook.com/profile.php?id=100007066908445" target="_blank"> <i class="fab fa-facebook"></i></a>
                 <a href="https://www.linkedin.com/in/sojun-chandra-3b5677266/" target="_blank"><i class="fab fa-linkedin"></i></a>                            
-            </nav>       
-    <section>
+            </nav> 
+        </section>      
+    </main>
 </body>
 </html>
