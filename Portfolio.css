@@ -1,9 +1,10 @@
-/* universal tag is used for all of my html file control */
+/*! universal tag is used for all of my html file control */
 *{
     background-color: black;
     color: white;
     /* font-size:20px; */
 }
+/*? universal tag ends here */
 h1, h2{
     color: #2BFF00;
     font-size: 50px;
@@ -26,12 +27,16 @@ a li{
     margin-right: auto;
     text-align: center;
 }
+
+/*? social media section start here */
 #social{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     
 }
+/*! social media section start here */
+
 .about{
     font-size: 30px;
     color:white;
